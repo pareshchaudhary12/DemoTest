@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[ClickFacebookSignupLink]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookRegistrationPageFblogo]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookRegistrationPageAllreadyAccount]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPageFirstname]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPageLastname]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPageMobileEmail]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPagePassword]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPageBirthDate]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPageBirthMonth]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPageBirthYear]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookRegistrationPageGender]]>
+    </line>
+    <line>
+      <![CDATA[ClickFacebookRegistrationPageSubmitBtn]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25094" started-at="2023-01-18T21:06:09Z" finished-at="2023-01-18T21:06:34Z">
+    <groups>
+    </groups>
+    <test name=" FullTest" duration-ms="25094" started-at="2023-01-18T21:06:09Z" finished-at="2023-01-18T21:06:34Z">
+      <class name="com.projectname.qa.TestCases.RegistrationTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="8009" started-at="2023-01-18T21:06:09Z" finished-at="2023-01-18T21:06:17Z">
+        </test-method>
+        <test-method status="PASS" signature="FacebookRegistrationPageTest()" name="FacebookRegistrationPageTest" duration-ms="8403" started-at="2023-01-18T21:06:17Z" finished-at="2023-01-18T21:06:26Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="444" started-at="2023-01-18T21:06:26Z" finished-at="2023-01-18T21:06:26Z">
+        </test-method>
+      </class>
+      <class name="com.projectname.qa.TestCases.LoginTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="6367" started-at="2023-01-18T21:06:26Z" finished-at="2023-01-18T21:06:32Z">
+        </test-method>
+        <test-method status="PASS" signature="FacebookLoginPageTest_positive()" name="FacebookLoginPageTest_positive" duration-ms="1355" started-at="2023-01-18T21:06:32Z" finished-at="2023-01-18T21:06:34Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="484" started-at="2023-01-18T21:06:34Z" finished-at="2023-01-18T21:06:34Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
